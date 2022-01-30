@@ -90,7 +90,7 @@ const Auth = () => {
         formData.append("password", formState.inputs.password.value);
         // formData.append("image", formState.inputs.image.value);
         const responseData = await sendRequest(
-          "https://btech-solutions-places-api.herokuapp.com//api/users/signup",
+          "https://btech-solutions-places-api.herokuapp.com/api/users/signup",
           "POST",
           formData
         );
