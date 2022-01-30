@@ -39,7 +39,7 @@ const App = () => {
         <Route path="/places/:placeId">
           <UpdatePlace />
         </Route>
-        <Redirect to="/" />
+        <Redirect to="/users" />
       </Switch>
     );
   } else {
