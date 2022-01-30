@@ -100,6 +100,9 @@ const NewPlace = () => {
         <Button type="submit" disabled={!formState.isValid}>
           ADD PLACE
         </Button>
+        <p>
+          This is a demo site. All of your posts will be deleted after 10 min.
+        </p>
       </form>
     </React.Fragment>
   );
